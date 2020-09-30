@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "LeOsler-RoughRegular";
+    background: linear-gradient(to top, powderblue, pink);
+    color: #000;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.title {
+    text-align: center;
+    font-size: 64px;
+    color: $text-red;
+    text-shadow: $text-shadow;
+}
+
+.text {
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+}

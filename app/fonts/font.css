@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'LeOsler-RoughRegular';
+  src: url('LeOsler-RoughRegular.ttf') format('truetype'),
+       url('LeOsler-RoughRegular.woff') format('woff'),
+       url('LeOsler-RoughRegular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
