@@ -27,15 +27,122 @@ li {
     list-style: none;
 }
 
+
+.social-list {
+    font-size: 1.8rem;
+    text-align: center;
+
+    li {
+        color: #ffff;
+        width: 70px;
+        height: 70px;
+        border: 2px solid #ffff;
+        padding-top: 15px;
+        border-radius: 44px;
+        display: inline-block;
+        margin-left: 15px;
+
+
+        &:hover {
+            background: rgba(#fff, 0.2);
+        }
+    }
+}
+
 .title {
     text-align: center;
-    font-size: 64px;
+    font-size: 68px;
     color: $text-red;
     text-shadow: $text-shadow;
+    padding: 60px 0 60px;
 }
 
 .text {
-    font-size: 24px;
+    font-size: 25px;
     font-family: "Montserrat", sans-serif;
     color: #000;
+    text-align: center;
+}
+
+// form {
+//     display: flex;
+//     flex-direction: column;
+//     max-width: 560px;
+
+//     input {
+//         background-color: rgba(#ffff, 0.5);
+//         min-height: 80px;
+//         border: none;
+//         border-radius: 32px;
+//         margin-bottom: 40px;
+
+//         &::placeholder {
+//             padding-left: 20px;
+//             padding-top: 20px;
+//         }
+//     }
+// }
+
+#feedback-form {
+    margin-top: 80px;
+    max-width: 560px;
+    // padding: 2%;
+
+}
+
+#feedback-form [required] {
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    // margin: 2px 0 2% 0;
+    padding: 40px;
+    border: none;
+    border-radius: 72px;
+    background: rgba(#fff, 0.6);
+    box-shadow: 0 1px 2px -1px rgba(0, 0, 0, .2) inset, 0 0 transparent;
+
+    &::placeholder {
+        color: #000;
+    }
+}
+
+#feedback-form [required]:hover {
+    border-color: #7eb4ea;
+    box-shadow: 0 1px 2px -1px rgba(0, 0, 0, .2) inset, 0 0 transparent;
+}
+
+#feedback-form [required]:focus {
+    outline: none;
+    // border-color: #7eb4tea;
+    // box-shadow: 0 1px 2px -1px rgba(0, 0, 0, .2) inset, 0 0 4px rgba(35, 146, 243, .5);
+    // transition: .2s linear;
+}
+
+#feedback-form [type="text"],
+#feedback-form [type="email"] {
+    min-height: 80px;
+    margin-top: 20px;
+}
+
+
+#feedback-form [type="submit"] {
+    font-size: 42px;
+    border: none;
+    border-radius: 72px;
+    min-width: 420px;
+    background: #ff3401;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 70px 22px;
+    margin: 10px 0 50px;
+}
+
+#feedback-form [type="submit"]:hover {
+    background: #ff0000;
+
+}
+
+#feedback-form [name="messageFF"] {
+    margin: 40px 0;
+    resize: none;
 }
