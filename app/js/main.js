@@ -24,4 +24,11 @@ $(function () {
     }, false);
 
 
+    $('.dragon-slider').slick({
+        infinite: true,
+        fade: true,
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 2000,
+    });
 });

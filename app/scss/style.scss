@@ -35,13 +35,11 @@
 // social media
 
 .header__social {
-
     padding-left: 355px;
 }
 
-
-
-.header__social-item {}
+.header__social-item {
+}
 
 // menu
 
@@ -202,7 +200,8 @@
     text-align: center;
 }
 
-.about__hero {}
+.about__hero {
+}
 
 .about__hero-position--1 {
     position: absolute;
@@ -256,7 +255,7 @@
 }
 
 .about__buble-item {
-    font-family: 'Shnobel';
+    font-family: "Shnobel";
     font-size: 36px;
     color: #000;
     position: relative;
@@ -322,7 +321,6 @@
     padding: 60px;
 }
 
-
 // Youtube
 .youtube {
     padding-top: 60px;
@@ -349,17 +347,19 @@
 }
 
 .dragon {
-    display: flex;
-    justify-content: space-around;
     padding: 40px 0 60px;
 }
 
-.dragon__tosha {
+.dragon-slider__box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dragon-slider__info {
     position: relative;
 }
 
-
-.dragon__tosha-name {
+.dragon-slider__title {
     max-width: 450px;
     color: $text-blue;
     position: absolute;
@@ -367,7 +367,7 @@
     left: 175px;
 }
 
-.dragon__content {
+.dragon-slider__content {
     background-image: url(../img/buble.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -379,15 +379,13 @@
     align-items: center;
 }
 
-
-
-.dragon__title {
+.dragon-slider__name {
     padding-top: 200px;
     font-size: 60px;
     padding-bottom: 60px;
 }
 
-.dragon__text {
+.dragon-slider__text {
     max-width: 725px;
     text-align: center;
     font-size: 18px;
@@ -424,15 +422,12 @@
     width: 50%;
 }
 
-
 .buble {
     position: absolute;
     top: 0;
     left: 0;
     height: 160px;
 }
-
-
 
 // Footer
 .footer {
@@ -443,7 +438,6 @@
     justify-content: space-between;
     align-items: flex-start;
     background-color: #8a547b;
-
 }
 
 .footer__item {
