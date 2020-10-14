@@ -7,6 +7,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+    integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw=="
+    crossorigin="anonymous" />
+
 </head>
 
 <body>
@@ -35,7 +39,7 @@
 
     <div class="header__title">
       <!-- В мир волшебных пузырей -->
-      <img src="img/header-title.png" alt="">
+      <img src="img/header-title.png" alt="" aria-label="">
     </div>
     <div class="header__subtitle">
       <img src="img/header-subtitle.png" alt="">
@@ -67,17 +71,17 @@
 
 
     <div class="about__hero">
-      <div class="about__hero about__hero-position--1">
+      <div class="about__hero about__hero-position--1 rellax" data-rellax-speed="-1">
         <img src="img/about-per-1.png" alt="">
       </div>
-      <div class="about__hero about__hero-position--2">
+      <div class="about__hero about__hero-position--2 rellax" data-rellax-speed="-1">
         <img src="img/about-per-2.png" alt="">
       </div>
-      <div class="about__hero about__hero-position--3">
+      <div class="about__hero about__hero-position--3 rellax" data-rellax-speed="-1">
         <img src="img/about-per-3.png" alt="">
       </div>
-      <div class="about__hero about__hero-position--4">
-        <img src="img/about-per-4.png" alt="">
+      <div class="about__hero about__hero-position--4 rellax" data-rellax-speed="-1">
+        <img src=" img/about-per-4.png" alt="">
       </div>
     </div>
 
@@ -120,21 +124,21 @@
 
     <div class="about__buble">
       <div class="about__buble-item">
-        <img src="img/buble.png" alt="">
+        <img src="img/buble.png" alt="" class="animate__pulse animate__infinite animate__slower animate__animated">
         <span> Серии:<br> 5 мин</span>
       </div>
 
       <div class="about__buble-item">
-        <img src="img/buble.png" alt="">
+        <img src="img/buble.png" alt="" class="animate__pulse animate__infinite animate__slower animate__animated">
         <span> Сезон:<br> 26 серий</span>
       </div>
 
       <div class="about__buble-item">
-        <img src="img/buble.png" alt="">
+        <img src="img/buble.png" alt="" class="animate__pulse animate__infinite animate__slower animate__animated">
         <span> В эфире:<br> 2 сезона</span>
       </div>
       <div class="about__buble-item">
-        <img src="img/buble.png" alt="">
+        <img src="img/buble.png" alt="" class="animate__pulse animate__infinite animate__slower animate__animated">
         <span> В работе: <br>3 сезон</span>
 
       </div>
@@ -162,21 +166,32 @@
       <img src="img/dev-game-logo.png" alt="">
     </div>
 
-    <div class="app__phone">
-      <img src="img/phone.png" alt="">
-      <div class="app__phone-link">
-        <a href="#">
-          <img src="img/app_store_icon.png" alt="">
-        </a>
-        <a href="#">
-          <img src="img/google_store_icon.png" alt="">
-        </a>
+    <div class="app__wrapp">
+
+      <div class="app-slider">
+        <div class="app-slider__item">
+          <img src="img/app-slider-photo.png" alt="">
+        </div>
+        <div class="app-slider__item">
+          <img src="img/app-slider-photo.png" alt="">
+        </div>
       </div>
+      <img class="app__pers-tosha" src="img/tosha.png" alt="">
+      <img class="app__pers-nyasha" src="img/nyasha.png" alt="">
+      <img class="app__phone" src="img/iphone-xr-mockup.png" alt="">
 
 
 
     </div>
 
+    <div class="app__link">
+      <a href="#">
+        <img src="img/app_store_icon.png" alt="">
+      </a>
+      <a href="#">
+        <img src="img/google_store_icon.png" alt="">
+      </a>
+    </div>
 
   </section>
 
@@ -192,34 +207,32 @@
           и еще множество интересных видео с любимыми героями!
         </div>
       </div>
-      <img src="img/youtube-logo.png" alt="">
+      <a href="https://www.youtube.com/channel/UCID3-FBQUma_vl1a3ktRKWg" target="_blank" rel="noopener noreferrer">
+        <img src="img/youtube-logo.png" alt="">
+      </a>
+
     </div>
 
-    <div class="youtube__galery">
-      <iframe width="550" height="290" src="https://www.youtube.com/embed/UaeXxioPaJw?start=1" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
 
-      <iframe width="550" height="290" src="https://www.youtube.com/embed/UaeXxioPaJw?start=1" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-
-      <iframe width="550" height="290" src="https://www.youtube.com/embed/UaeXxioPaJw?start=1" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-
-      <iframe width="550" height="290" src="https://www.youtube.com/embed/UaeXxioPaJw?start=1" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-
-      <iframe width="550" height="290" src="https://www.youtube.com/embed/UaeXxioPaJw?start=1" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-
-      <iframe width="550" height="290" src="https://www.youtube.com/embed/UaeXxioPaJw?start=1" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-
+    <div class="youtube__gallery">
+      <a data-fancybox="gallery" href="https://www.youtube.com/embed/UaeXxioPaJw?start=1">
+        <img src="img/youtube-gallery-1.png" alt="">
+      </a>
+      <a data-fancybox="gallery" href="https://www.youtube.com/embed/UaeXxioPaJw?start=1">
+        <img src="img/youtube-gallery-2.png" alt="">
+      </a>
+      <a data-fancybox="gallery" href="https://www.youtube.com/embed/UaeXxioPaJw?start=1">
+        <img src="img/youtube-gallery-3.png" alt="">
+      </a>
+      <a data-fancybox="gallery" href="https://www.youtube.com/embed/UaeXxioPaJw?start=1">
+        <img src="img/youtube-gallery-1.png" alt="">
+      </a>
+      <a data-fancybox="gallery" href="https://www.youtube.com/embed/UaeXxioPaJw?start=1">
+        <img src="img/youtube-gallery-2.png" alt="">
+      </a>
+      <a data-fancybox="gallery" href="https://www.youtube.com/embed/UaeXxioPaJw?start=1">
+        <img src="img/youtube-gallery-3.png" alt="">
+      </a>
     </div>
 
   </section>
@@ -232,8 +245,8 @@
 
         <div class="dragon-slider__box">
 
-          <div class="dragon-slider__info">
-            <div class="dragon-slider__title title">
+          <div class="dragon-slider__info ">
+            <div class=" dragon-slider__title title">
               Познакомтесь с персонажами
             </div>
             <img src="img/dragon-img.png" alt="">
@@ -272,7 +285,7 @@
         </div>
 
       </div>
-      <div class="dragon-slider__item">
+      <div class="dragon-slider__item ">
 
         <div class="dragon-slider__box">
 
@@ -321,6 +334,7 @@
 
   </section>
 
+
   <section class="request">
 
 
@@ -333,10 +347,12 @@
       Мы всегда роды обратной связи
     </div>
     <div class="request-wrapp">
-      <img class="buble" src="img/buble.png" alt="">
-      <div class="request__img">
-        <img src="img/request-img.png" alt="">
-      </div>
+      <img class="buble rellax" alt="" data-rellax-speed="-2" src="img/buble.png">
+      <img class="buble-2 rellax" alt="" data-rellax-speed="-2" src="img/buble.png">
+      <img class="buble-3 rellax" alt="" data-rellax-speed="-2" src="img/buble.png">
+
+      <img class="request__img rellax" data-rellax-speed="-2" src="img/request-img.png" alt="">
+
 
       <div class="request__form">
         <form method="POST" id="feedback-form">

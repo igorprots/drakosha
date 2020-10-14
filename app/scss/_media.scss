@@ -24,6 +24,8 @@ footer {
 
 @media (min-width: 991.98px) {
 
+
+
     section,
     header,
     footer {
@@ -47,4 +49,185 @@ footer {
     footer {
         padding: 0 calc(50vw - 860px);
     }
+}
+
+@media (max-width: 1440px) {
+
+    .header {
+        padding-top: 20px;
+
+        &__title img {
+            width: 740px;
+        }
+
+        &__subtitle img {
+            width: 600px;
+        }
+    }
+
+    .header__social {
+        padding-left: 130px;
+    }
+
+    .button_container {
+        top: 30px;
+        right: 8%;
+    }
+
+}
+
+@media (max-width: 1199.98px) {
+    .header__social {
+        padding-left: 60px;
+    }
+
+    .social-list {
+        font-size: 1.15rem;
+    }
+
+    .button_container span {
+        height: 8px;
+    }
+
+    .social-list li {
+        height: 60px;
+        width: 60px;
+    }
+
+    .header__logo img {
+        width: 250px;
+    }
+}
+
+@media (max-width: 1440px) {
+
+    .header {
+        padding-top: 20px;
+
+        &__title img {
+            width: 740px;
+        }
+
+        &__subtitle img {
+            width: 600px;
+        }
+    }
+
+    .header__social {
+        padding-left: 130px;
+    }
+
+    .button_container {
+        top: 30px;
+        right: 8%;
+    }
+
+    .about__hero img {
+        width: 250px;
+    }
+
+    .about__content {
+        min-height: 750px;
+    }
+
+    .about__text {
+        max-width: 680px;
+    }
+
+    .text {
+        font-size: 20px;
+    }
+
+    .title {
+        padding: 30px 0 40px;
+        font-size: 62px;
+    }
+
+    .app__logo {
+        right: 30px;
+    }
+
+    .app__logo img {
+        width: 200px;
+    }
+
+    .app__info-text {
+        max-width: 900px;
+    }
+
+
+    .app__phone {
+        width: 700px;
+    }
+
+
+    .app__pers-tosha {
+        width: 300px;
+    }
+
+    .app__pers-nyasha {
+        right: 20px;
+        width: 250px;
+    }
+
+    .app-slider__item img {
+        height: 430px;
+        // height: calc(76vh - 100px);
+    }
+
+    .app__link {
+        padding: 60px;
+
+        img {
+            width: 190px;
+        }
+    }
+
+    .dragon-slider__info img {
+        width: 570px;
+    }
+
+    .dragon-slider__content {
+        min-height: auto;
+        min-width: 780px;
+    }
+
+    .dragon-slider__name {
+        padding-top: 90px;
+    }
+
+    .dragon-slider__text {
+        max-width: 600px;
+        font-size: 18px;
+    }
+
+    .youtube__gallery img {
+        width: 380px;
+    }
+
+    .social-list {
+        font-size: 0.8rem;
+    }
+
+    .social-list li {
+
+        width: 45px;
+        height: 45px;
+    }
+
+    .footer__item span {
+        font-size: 42px;
+    }
+
+    #feedback-form {
+
+        max-width: 460px;
+    }
+
+
+
+    #feedback-form [required] {
+        padding: 20px;
+    }
+
 }
